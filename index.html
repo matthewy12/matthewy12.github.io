@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon-portfolio.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>My Portfolio</title>
+    <script src="js/nav.js"></script>
+</head>
+
+<body>
+    <nav id="navbar" class="black navbar navbar-expand-lg fixed-top">
+        <a id="nav-logo" class="navbar-brand" href="index.html">Matthew Yang</a>
+
+        <button class="navbar-toggler" id="nav-btn" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavbar">
+            <span class="navbar-btn"><i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul id="nav-ul" class="navbar-nav">
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#experiences">Relevant Experience</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#my-portfolio">Projects & Skills</a>
+                </li>
+                <li class="nav-item navigation-list">
+                    <a class="nav-link nav-custom-link" href="#section-contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container-fluid main p-0">
+        <section class="container-fluid section-1">
+            <div class="row section-1-inner">
+                <div class="col section-1-inner-col">
+                    <div class="image-frame mx-auto my-5">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-me" class="container-fluid section-2"></section>
+        <section class="container-fluid section-3">
+            <div class="row section-3-inner">
+                <div class="col-lg-6 section-3-inner-col-left text-center">
+                    <div class="primary-heading section-3-heading text-lg-end">
+                        I Am <span class="fw-bold">Software Engineer</span>
+                    </div>
+                    <div class="section-3-image-left text-lg-end">
+                        <img src="./images/Section-3-image-1.jpg" class="img-fluid sec3-images sec3-img-left" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 section-3-inner-col-right text-center mt-5 mt-lg-0">
+                    <div class="section-3-image-right text-lg-start">
+                        <img src="./images/Section-3-image-2.jpg" class="img-fluid sec3-images sec3-img-right" alt="">
+                    </div>
+                    <div class="col-xl-8 d-flex align-items-stretch">
+                        <div class="icon-boxes d-flex flex-column justify-content-center">
+                            <div class="row">
+                                <div data-aos="fade-up" data-aos-delay="100">
+                                    <i class="bx bx-receipt"></i>
+                                    <h4>Hobbies</h4>
+                                    <p>I enjoy fishing, golfing, volleyball, traveling, and cooking! I currently the
+                                        Co-Captain of the Cornell University Men's Volleyball Club team.
+                                    </p>
+                                </div>
+                                <div data-aos="fade-up" data-aos-delay="200">
+                                    <i class="bx bx-cube-alt"></i>
+                                    <h4>Schooling</h4>
+                                    <p>I will graduate from Cornell University's College of Engineering in May 2024 with
+                                        a Computer Science Major.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="background-section-3"></div>
+        </section>
+
+
+        <section id="experiences" class="container-fluid section-2">
+            <div class="row">
+                <div class="col text-left">
+                    <div class="primary-heading col text-center">
+                        Relevant Experience <br></span>
+                    </div>
+                    <div class="d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up">
+                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                            <h4 class="title">Workday, CA | Software Engineer Intern | May 2023 - Aug.
+                                2023</a></h4>
+                            <p class="description">● Automated user provisioning in Salesforce Sandbox environments by
+                                developing a scheduled Heroku application using Python - directly saving the team 440
+                                hours per year of manual user creation <br>
+                                ● Developed a Python script with UI to dynamically split a CSV file holding sensitive
+                                data into multiple files to allow business teams to meet file size constraints when data
+                                loading <br>
+                                ● Designed a JIRA dashboard using SOQL filters to increase awareness of high priority
+                                projects in need of testing</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4 class="title">Noel Technologies, CA | Software Engineer Intern | May
+                                2022-Aug. 2022
+                                </a></h4>
+                            <p class="description">● Automated querying and analyzing of machine wafer data adaptively
+                                using Javascript in Excel - saving the company 10 hours per week of manual data scraping
+                                <br>
+                                ● Integrated a script to increase readability of tool measurement data for all of the
+                                unique wafer lots<br>
+                                ● Implemented an instantaneous gas shut off mechanism using Arduino to detect seismic
+                                anomalies
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <div class="icon"><i class="bx bx-tachometer"></i></div>
+                            <h4 class="title">Pure Wafer, CA | Software Engineer Intern | May 2021-Sept.
+                                2021</a></h4>
+                            <p class="description">● Streamlined company’s production database queries by automating
+                                manual data processes through programming in Java using JDBC and SQL to visualize
+                                service logs and digitize maintenance service requests <br>
+                                ● Implemented machine service program to digitize maintenance requests and logs,
+                                previously done on paper</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="bold-line"></div>
+
+        <section id="my-portfolio" class="container-fluid section-5">
+            <div class="row">
+                <div class="col">
+                    <div class="section-5-text text-center mx-auto">
+                        Projects & Skills
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container-fluid section-6">
+            <div class="row section-6-inner mx-auto">
+                <div class="col-lg-6 sec-6-left  pe-0 pe-lg-4">
+                    <div class="section-6-heading">
+                        <span class="fw-bold">Online Risk Board Game </span>| Feb. 2022-May. 2022
+                    </div>
+                    <div class="section-6-para">
+                        ● Collaborated with a team of four to delegate tasks and merge code in order to create a
+                        functioning game <br>
+                        ● Recreated the classical board game “Risk” using functional programming <br>
+                        ● Structured utility of each module to parse commands, maintain game states, and fulfill
+                        player actions <br>
+                        ● Ensured high quality code using unit tests while following Agile methodology
+                    </div>
+                </div>
+                <div class="col-lg-6 sec-6-right mt-lg-0 mt-5">
+                    <img src="./images/music-band-website.png" class="img-fluid sec6-image"></a>
+                </div>
+            </div>
+
+            <div class="row section-6-inner mx-auto mt-5">
+                <div class="col-lg-6 sec-6-left  pe-0 pe-lg-4">
+                    <div class="section-6-heading">
+                        <span class="fw-bold">Froggit </span> |
+                        Sept. 2020-Jan. 2021
+                    </div>
+                    <div class="section-6-para">
+                        ● Applied concepts learned throughout class to synthesize ideas and deliver a game <br>
+                        ● Developed a game in Python resembling “Frogger” or “Crossy Road”
+                        with different levels and moving lanes <br>
+                        ● Implemented logic for acceptable movements of the frog, winning/losing conditions,
+                        animating motion
+                    </div>
+                </div>
+                <div class="col-lg-6 sec-6-right mt-lg-0 mt-5">
+                    <img src="./images/coffee-cup-website.png" class="img-fluid sec6-image" alt=""></a>
+                </div>
+                <div class="d-flex align-items-stretch mb-5 mb-lg-0">
+                    <div class="icon-box" data-aos="fade-up">
+                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                        <h4 class="title">Relevant Skills</a></h4>
+                        <p class="description">Java, Python, C, C++, Javascript, SQL, OCaml, Linux, Git, NumPy,
+                            Heroku, Solidworks, Excel</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="section-contact" class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="contact-heading">
+                        Contact Me
+                    </div>
+                    <div class="contact-para">
+                        Let's start a conversation
+                    </div>
+                </div>
+            </div>
+            <div class="row card-row-1">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card">
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-map-signs" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Address</div>
+                            <div class="card-para">Cupertino, CA</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card mt-5 mt-md-0">
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Contact Number</div>
+                            <div class="card-para"><a class="card-link"
+                                    href="https://wa.me/+14083323051">+1(408)332-3051</div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card mt-5 mt-lg-0">
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Email Address</div>
+                            <div class="card-para"><a class="card-link"
+                                    href="mailto:msy35@cornell.edu">msy35@cornell.edu</div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card text-center custom-card mt-5 mt-lg-0">
+                        <div class="card-body">
+                            <div class="card-circle">
+                                <div class="card-circle-icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                            </div>
+                            <div class="card-heading">Websites</div>
+                            <div class="card-para"><a class="card-link"
+                                    href="linkedin.com/in/msy35">linkedin.com/in/msy35</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+</body>
+
+</html>
